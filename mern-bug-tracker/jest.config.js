@@ -35,7 +35,7 @@ module.exports = {
       coverageDirectory: '<rootDir>/coverage/client',
       collectCoverageFrom: [
         'client/src/**/*.{js,jsx}',
-        '!client/src/index.js',
+        '!client/src/main.jsx',
         '!**/node_modules/**',
       ],
     },
